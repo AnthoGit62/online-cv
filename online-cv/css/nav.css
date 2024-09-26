@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #575757 !important; 
+}
+
+.nav-link.active {
+    color: #ffffff !important;
+}
+
+.nav-link {
+    color: #ffffff; /* Couleur des liens */
+}
+
+.nav-link:hover {
+    color: #f8f9fa; /* Couleur des liens au survol */
+}
+
+.dropdown-menu {
+    background-color: #495057; /* Couleur de fond du menu déroulant */
+}
+
+.dropdown-item {
+    color: #ffffff; /* Couleur des éléments du dropdown */
+}
+
+.dropdown-item:hover {
+    background-color: #ffffff; /* Couleur au survol des éléments du dropdown */
+}

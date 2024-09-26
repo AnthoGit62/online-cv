@@ -1,0 +1,73 @@
+
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    bottom: 10%;
+  }
+  
+  .timeline-item {
+    padding: 20px 30px;
+    position: relative;
+    width: 45%; /* Réduit la largeur pour plus d'espace */
+    margin: 10px 0; /* Ajoute de l'espace entre les éléments */
+  }
+  
+  .timeline-item.left::before {
+    content: '';
+    position: absolute;
+    width: 6px; /* Largeur du trait */
+    height: 100%; /* Hauteur du trait */
+    background-color: #0d6efd; /* Couleur du trait */
+    left: -30px; /* Positionnement à gauche */
+    top: 0; /* Aligne en haut de l'élément */
+    z-index: 1;
+  }
+  
+  .timeline-item.right::before {
+    content: '';
+    position: absolute;
+    width: 6px; /* Largeur du trait */
+    height: 100%; /* Hauteur du trait */
+    background-color: #0d6efd; /* Couleur du trait */
+    right: -30px; /* Positionnement à droite */
+    top: 0; /* Aligne en haut de l'élément */
+    z-index: 1;
+  }
+  
+  .timeline-item.left {
+    left: 10%;
+  }
+  
+  .timeline-item.right {
+    left: 45%;
+  }
+  
+  .timeline-item h4 {
+    font-size: 1.5rem; /* Augmente la taille du texte */
+    margin-bottom: 5px;
+  }
+  
+  .timeline-item p {
+    margin: 0;
+  }
+  
+  /* Ajout de l'espacement entre les items */
+  .timeline-item + .timeline-item {
+    margin-top: 60px;
+  }
+
+.blockquote {
+    font-size: 45px !important;
+}
+  
+.blockquote-footer {
+    font-size: 25px !important;
+}
+
+.text-center {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
