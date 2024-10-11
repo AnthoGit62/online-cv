@@ -1,0 +1,21 @@
+.rounded {
+    width: 32rem; /* Largeur fixe sur grands écrans */
+    height: auto; /* Garde les proportions de l'image */
+    padding-top: 4rem; /* Espace en haut */
+    padding-bottom: 2.2rem; /* Espace en bas */
+}
+
+
+
+@media (max-width: 768px) {
+    .rounded {
+        width: 80%; /* Réduit la largeur sur les petits écrans */
+        max-width: 300px; /* Limite la taille maximale sur mobile */
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .text-center{
+        padding-bottom: 9.6rem;
+    }
+}
